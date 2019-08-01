@@ -1,31 +1,26 @@
 intents:
   - greet
   - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
+  - dacdiem
+  - loiich
 
 actions:
 - utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
 - utter_goodbye
+- utter_dacdiem
+- utter_loiich
 
 templates:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Xin chào, bạn cần FAQ Techcombank giúp gì?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.ytimg.com/vi/B6442zeyuos/maxresdefault.jpg"
+  utter_dacdiem:
+  - text: "Đây là một số thông tin bạn cần:"
+    image: "https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.0-9/67547004_103080701041275_7392149718739976192_n.png?_nc_cat=101&_nc_oc=AQkAF1XpgExNJ_XEdWIftKaalNNDDpSxqFQcq9k66D2KIZrxFtOobGFX5PbNv-hbBMY&_nc_ht=scontent.fsgn6-1.fna&oh=8254c737c5c63227ab9dcd8d5075ecf4&oe=5DDA3483"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great carry on!"
+  utter_loiich:
+  - text: "Đây là một số thông tin bạn cần:"
+    image: "https://scontent.fsgn6-2.fna.fbcdn.net/v/t1.0-9/67430235_103080707707941_8530895907124674560_n.png?_nc_cat=110&_nc_oc=AQnL3pTRr6iY8jwVIZ17p2QGbFJMGjUULQPKuz8EBwPfZ4DPstq6FMdMF-zp7KFr3g0&_nc_ht=scontent.fsgn6-2.fna&oh=53610c97f57790291e69cc7fd32597b6&oe=5DE27593"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "FAQ Techcombank tạm biệt."

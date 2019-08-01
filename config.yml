@@ -1,6 +1,6 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: vi
 pipeline: supervised_embeddings
 
 # Configuration for Rasa Core.

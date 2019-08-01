@@ -2,49 +2,22 @@
 - hey
 - hello
 - hi
-- good morning
-- good evening
-- hey there
-
+- chào
+- .
 ## intent:goodbye
 - bye
 - goodbye
-- see you around
-- see you later
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+## intent:dacdiem
+- chuyển tiền nhanh liên ngân hàng
+- chuyển tiền nhanh liên ngân hàng 24/7
+- đặc điểm của chuyển tiền nhanh liên ngân hàng 24/7 là gì
+- đặc điểm của chuyển tiền nhanh liên ngân hàng 24/7
+- đặc điểm của chuyển tiền nhanh liên ngân hàng
+- đặc điểm
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+## intent:loiich
+- lợi ích của chuyển tiền nhanh liên ngân hàng 24/7 là gì
+- lợi ích của chuyển tiền nhanh liên ngân hàng 24/7
+- lợi ích của chuyển tiền nhanh liên ngân hàng
+- lợi ích
