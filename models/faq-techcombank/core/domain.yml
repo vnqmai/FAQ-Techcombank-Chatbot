@@ -1,0 +1,36 @@
+%YAML 1.1
+---
+actions:
+- utter_dacdiem
+- utter_goodbye
+- utter_greet
+- utter_loiich
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    ignore_entities: []
+    use_entities: true
+- goodbye:
+    ignore_entities: []
+    use_entities: true
+- dacdiem:
+    ignore_entities: []
+    use_entities: true
+- loiich:
+    ignore_entities: []
+    use_entities: true
+slots: {}
+templates:
+  utter_dacdiem:
+  - image: https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.0-9/67547004_103080701041275_7392149718739976192_n.png?_nc_cat=101&_nc_oc=AQkAF1XpgExNJ_XEdWIftKaalNNDDpSxqFQcq9k66D2KIZrxFtOobGFX5PbNv-hbBMY&_nc_ht=scontent.fsgn6-1.fna&oh=8254c737c5c63227ab9dcd8d5075ecf4&oe=5DDA3483
+    text: 'Đây là một số thông tin bạn cần:'
+  utter_goodbye:
+  - text: FAQ Techcombank tạm biệt.
+  utter_greet:
+  - text: Xin chào, bạn cần FAQ Techcombank giúp gì?
+  utter_loiich:
+  - image: https://scontent.fsgn6-2.fna.fbcdn.net/v/t1.0-9/67430235_103080707707941_8530895907124674560_n.png?_nc_cat=110&_nc_oc=AQnL3pTRr6iY8jwVIZ17p2QGbFJMGjUULQPKuz8EBwPfZ4DPstq6FMdMF-zp7KFr3g0&_nc_ht=scontent.fsgn6-2.fna&oh=53610c97f57790291e69cc7fd32597b6&oe=5DE27593
+    text: 'Đây là một số thông tin bạn cần:'

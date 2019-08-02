@@ -1,0 +1,77 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "chào"
+      },
+      {
+        "intent": "greet",
+        "text": "."
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "dacdiem",
+        "text": "chuyển tiền nhanh liên ngân hàng"
+      },
+      {
+        "intent": "dacdiem",
+        "text": "chuyển tiền nhanh liên ngân hàng 24/7"
+      },
+      {
+        "intent": "dacdiem",
+        "text": "đặc điểm của chuyển tiền nhanh liên ngân hàng 24/7 là gì"
+      },
+      {
+        "intent": "dacdiem",
+        "text": "đặc điểm của chuyển tiền nhanh liên ngân hàng 24/7"
+      },
+      {
+        "intent": "dacdiem",
+        "text": "đặc điểm của chuyển tiền nhanh liên ngân hàng"
+      },
+      {
+        "intent": "dacdiem",
+        "text": "đặc điểm"
+      },
+      {
+        "intent": "loiich",
+        "text": "lợi ích của chuyển tiền nhanh liên ngân hàng 24/7 là gì"
+      },
+      {
+        "intent": "loiich",
+        "text": "lợi ích của chuyển tiền nhanh liên ngân hàng 24/7"
+      },
+      {
+        "intent": "loiich",
+        "text": "lợi ích của chuyển tiền nhanh liên ngân hàng"
+      },
+      {
+        "intent": "loiich",
+        "text": "lợi ích"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
