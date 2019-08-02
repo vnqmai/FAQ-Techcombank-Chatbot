@@ -1,1 +1,1 @@
-web: rasa run --credentials credentials.yml --endpoints endpoints.yml
+web: rasa run --credentials credentials.yml --endpoints endpoints.yml --port $PORT
