@@ -1,1 +1,1 @@
-web: python facebook.py
+web: rasa run --credentials credentials.yml
