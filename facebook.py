@@ -6,7 +6,7 @@ from rasa_core.utils import EndpointConfig
 
 # load your trained agent
 interpreter = RasaNLUInterpreter("models/faq-techcombank/nlu/")
-MODEL_PATH = "models/dialogue"
+MODEL_PATH = "models/faq-techcombank/core"
 action_endpoint = EndpointConfig(url="https://faq-techcombank-actions.herokuapp.com/webhook")
 
 agent = Agent.load(MODEL_PATH, interpreter=interpreter)
