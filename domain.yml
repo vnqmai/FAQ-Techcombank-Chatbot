@@ -3,12 +3,78 @@ intents:
   - goodbye
   - dacdiem
   - loiich
+  - fastbankAskLaGi
+  - fastbankAskCoAnToan
+  - fastbankAskCongTacNuocNgoai
+  - fastbankAskDoiMatKhau
+  - fastbankAsk2LoaiTienVietVaNgoaiTe
+  - fastbankAskCachDangKy
+  - fastbankAskChuyenTienBaoNhieuTuyY
+  - fastbankAskRSAToken
+  - fastbankAskTruyVanThongTin
+  - fastbankAskCachNhanTaiKhoan
+  - fastbankAskLoiDangNhapBangToken
+  - fastbankAskMatToken
+  - fastbankAskLoiFirefox
+  - fastbankAskHelp
+  - fastmobipayAskLaGi
+  - fastmobipayAskCachDangKy
+  - fastmobipayAskLoiKhongTaiDuocPhanMem
+  - fastmobipayAskSoTienThanhToanToiDaMotNgay
+  - fastmobipayAskPhiDichVu
+  - fastmobipayAskLoaiHoaDonDichVuVaCuPhapTinNhan
+  - fastmobipayAskCachNhapThongTin
+  - fastmobipayAskThaySim
+  - homebankingAskLaGi
+  - homebankingAskHinhThucGiaoDich
+  - homebankingAskCachDangKy
+  - homebankingAskAiNhanDuocThongTinGiaoDich
+  - homebankingAskMaySDTVaChiPhi
+  - homebankingAskThongTinVoicAccess
+  - homebankingAskMatTaiKhoan
+  - homebankingAskLoiKhongNhanDuocTinNhan
+  - homebankingAskLoiKhongNhanDuocGiaoDich
+  - homebankingAskHuyDichVu
+  - homebankingAskDoanhNghiep
 
 actions:
 - utter_greet
 - utter_goodbye
 - utter_dacdiem
 - utter_loiich
+- utter_fastbankLaGi
+- utter_fastbankCoAnToan
+- utter_fastbankCongTacNuocNgoai
+- utter_fastbankDoiMatKhau
+- utter_fastbank2LoaiTienVietVaNgoaiTe
+- utter_fastbankCachDangKy
+- utter_fastbankChuyenTienBaoNhieuTuyY
+- utter_fastbankRSAToken
+- utter_fastbankTruyVanThongTin
+- utter_fastbankCachNhanTaiKhoan
+- utter_fastbankLoiDangNhapBangToken
+- utter_fastbankMatToken
+- utter_fastbankLoiFirefox
+- utter_fastbankHelp
+- utter_fastmobipayLaGi
+- utter_fastmobipayCachDangKy
+- utter_fastmobipayLoiKhongTaiDuocPhanMem
+- utter_fastmobipaySoTienThanhToanToiDaMotNgay
+- utter_fastmobipayPhiDichVu
+- utter_fastmobipayLoaiHoaDonDichVuVaCuPhapTinNhan
+- utter_fastmobipayCachNhapThongTin
+- utter_fastmobipayThaySim
+- utter_homebankingLaGi
+- utter_homebankingHinhThucGiaoDich
+- utter_homebankingCachDangKy
+- utter_homebankingAiNhanDuocThongTinGiaoDich
+- utter_homebankingMaySDTVaChiPhi
+- utter_homebankingThongTinVoicAccess
+- utter_homebankingMatTaiKhoan
+- utter_homebankingLoiKhongNhanDuocTinNhan
+- utter_homebankingLoiKhongNhanDuocGiaoDich
+- utter_homebankingHuyDichVu
+- utter_homebankingDoanhNghiep
 
 templates:
   utter_greet:
@@ -24,3 +90,127 @@ templates:
 
   utter_goodbye:
   - text: "FAQ Techcombank tạm biệt."
+
+  utter_fastbankLaGi:
+  - text: "F@st i-Bank là dịch vụ cho phép khách hàng tra cứu mọi thông tin về các tài khoản tiền gửi, tài khoản tiết kiệm , thực hiện các giao dịch chuyển tiền, trả nợ…bằng cách truy cập vào trang chủ của Techcombank www.techcombank.com.vn, và đăng nhập vào dịch vụ F@st i-Bank."
+
+  utter_fastbankCoAnToan:
+  - text: "Khách hàng có thể hoàn toàn yên tâm sử dụng dịch vụ này. Hiện tại giải pháp xác thực được ưu tiên sử dụng trên F@st Mobile là Smart OTP với cơ chế Transaction Signing được đánh giá có mức độ bảo mật hàng đầu thế giới. Kết hợp nghiên cứu cùng đối tác từ Mỹ. Mỗi giao dịch của khách hàng được bảo vệ bởi nhiều tầng bảo vệ, khách hàng hoàn toàn yên tâm khi giao dịch trên mạng mà không phải lo lắng về bất cứ gian lận cũng như rủi ro nào khi giao dịch trực tuyến. Techcombank hoàn toàn bảo đảm cho khách hàng về độ bảo mật của dịch vụ."
+
+  utter_fastbankCongTacNuocNgoai:
+  - text: "Có. Dịch vụ F@st i-Bank là dịch vụ ngân hàng trực tuyến được cung cấp trên mạng Internet, do đó khách hàng có thể sử dụng dịch vụ tại mọi điểm truy cập Internet trên toàn cầu bằng cách đăng nhập vào dịch vụ F@st i-Bank ở trang chủ của Techcombank: www.techcombank.com.vn"
+
+  utter_fastbankDoiMatKhau:
+  - text: "Với dịch vụ F@st i-Bank, trong trường hợp khách hàng không yên tâm với mật khẩu đang sử dụng, khách hàng có thể đến bất kỳ chi nhánh / PGD của Techcombank đăng ký đề nghị thay đổi hoặc có thể tự mình thay đổi mật khẩu trực tuyến tại Link: https://ib.techcombank.com.vn/ebankreset/input.jsp"
+
+  utter_fastbank2LoaiTienVietVaNgoaiTe:
+  - text: "Với dịch vụ F@st i-Bank: Khách hàng có thể đăng ký sử dụng dịch vụ cho cả 2 tài khoản, tuy nhiên chỉ có tài khoản VNĐ mới có chức năng chuyển tiền, với tài khoản ngoại tệ khách hàng chỉ có thể truy vấn thông tin."
+
+  utter_fastbankCachDangKy:
+  - text: > 
+      Khi muốn sử dụng dịch vụ Internet Banking của Techcombank, khách hàng có thể đăng ký bằng các hình thức sau đây:
+         1. Đến quầy giao dịch điền vào mẫu đăng ký sử dụng dịch vụ ( MB- IB/01)
+         2. Đăng ký Internet Banking qua Website của Techcombank: https://www.techcombank.com.vn/zerofee4/
+  
+  utter_fastbankChuyenTienBaoNhieuTuyY:
+  - text: "Sai, Techcombank quy định số tiền tối đa mà khách hàng phổ thông được phép thực hiện trong một ngày giao dịch là 300.000.000 VNĐ/ ngày"
+  
+  utter_fastbankRSAToken:
+  - text: "Trong các hệ thống bảo mật thông thường, khách hàng sẽ được cấp một Username và một Password duy nhất để truy cập. Việc nắm giữ duy nhất một 'Chìa khoá' đăng nhập sẽ mang lại cho khách hàng độ rủi ro cao. Với cơ chế hoạt động của hệ thống bảo mật RSA, khách hàng sẽ được cung cấp hai hệ thống mã là mã PIN và mã Token. Mã PIN là mã cố định khách hàng cần phải ghi nhớ, mã Token là mã do một thiết bị gọi là Token key sinh ra ngẫu nhiên và thay đổi liên tục theo từng phút."
+
+  utter_fastbankTruyVanThongTin:
+  - text: > 
+      Được, khi đăng ký sử dụng dịch vụ F@st i-Bank, khách hàng có 2 sự lựa chọn:
+         • Thứ nhất: Khách hàng chỉ đăng ký sử dụng dịch vụ truy vấn thông tin trên F@st i-Bank như Tra cứu số dư, Liệt kê giao dịch, Thông tin về các khoản vay, khoản tiết kiệm...
+         • Thứ hai: Khách hàng có thể đăng ký sử dụng tất cả các chức năng của F@st i-Bank bao gồm: Truy vấn thông tin, thực hiện giao dịch chuyển khoản...
+
+  
+  utter_fastbankCachNhanTaiKhoan:
+  - text: "Tên đăng nhập và Mật khẩu của khách hàng sẽ được gửi qua tin nhắn SMS hoặc Email của khách hàng."
+
+  utter_fastbankLoiDangNhapBangToken:
+  - text: "Mỗi phút một lần Token Key sẽ hiển thị số password, số này chỉ dùng được một lần, muốn dùng tiếp phải đợi Token Keychuyển sang số tiếp theo."
+
+  utter_fastbankMatToken:
+  - text: "Trong trường hợp khách hàng làm mất Token Key xin vui lòng đến chi nhánh gần nhất để đăng ký cấp lại Token Key."
+
+  utter_fastbankLoiFirefox:
+  - text: "Techcombank Internet Banking chỉ hỗ trợ cho trình duyệt Web Internet Explorer vì vậy khách hàng chỉ có thể sử dụng dịch vụ F@st i-Bank trên trình duyệt web Internet Explorer."
+
+  utter_fastbankHelp:
+  - text: "Do cơ chế bảo mật của hệ thống, vì vậy để tiếp tục sử dụng tính năng Help của dịch vụ xin khách hàng vui lòng chọn nút Yes trên cửa sổ thông báo trên."
+
+  utter_fastmobipayLaGi:
+  - text: "Dịch vụ F@st bank là dịch vụ thanh toán qua tin nhắn điện thoại di động do ngân hàng cung cấp cho khách hàng theo đó Khách hàng thực hiện nhắn tin qua điện thoại di động, theo cách thức mà ngân hàng quy định, thông qua Tổng đài dịch vụ tin nhắn và thiết bị hệ thống của Techcombank, để yêu cầu Ngân hàng thực hiện các giao dịch theo tin nhắn của Khách hàng."
+
+  utter_fastmobipayCachDangKy:
+  - text: "Để đăng ký sử dụng dịch vụ F@st MobiPay, khách hàng chỉ cần đến bất kỳ chi nhánh/phòng giao dịch nào của Techcombank, điền vào đơn đăng ký sử dụng dịch vụ và gửi kèm bản photo chứng minh thư; hoặc khách hàng có thể đăng ký online dịch vụ trên trang web của Techcombank."
+
+  utter_fastmobipayLoiKhongTaiDuocPhanMem:
+  - text: "Dịch vụ F@st MobiPay – OTAC chỉ hỗ trợ cho những điện thoại có ứng dụng JAVA nên rất có thể điện thoại của bạn không có ứng dụng JAVA. Xin bạn vui lòng kiểm tra lại điện thoại của mình."
+
+  utter_fastmobipaySoTienThanhToanToiDaMotNgay:
+  - text: "Hạn mức thanh toán tối đa trong ngày của dịch vụ F@st MobiPay bao gồm: hạn mức thanh toán hóa đơn là 10,000,000 VNĐ/ngày, hạn mức chuyển khoản trong Techcombank là 100.000.000 VNĐ/ ngày."
+
+  utter_fastmobipayPhiDichVu:
+  - text: "Khi đăng ký sử dụng dịch vụ, bạn hoàn toàn không phải mất bất kỳ một loại phí đăng ký cũng như thường niên nào. Mỗi khi cần giao dịch, bạn chỉ mất 500VND/tin nhắn."
+
+  utter_fastmobipayLoaiHoaDonDichVuVaCuPhapTinNhan:
+  - text: "Dưới đây là danh sách nhà cung ứng dịch vụ mà khách hàng có thể thanh toán qua dịch vụ F@st MobiPay:"
+  - text: "Nhà cung ứng dịch vụ 1"
+    image: "https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.0-9/68885806_113584083324270_8045583672331468800_n.png?_nc_cat=104&_nc_oc=AQnFaILGXz86rRbMFovOwW2M-cy5GJel4WcNluM1khQiNme2RyD5oMbDWy0mXPwDw_g&_nc_ht=scontent.fsgn6-1.fna&oh=3bf94690a81b3a929206ce1f5d302b7c&oe=5DD263FE"
+  - text: "Nhà cung ứng dịch vụ 2"      
+    image: "https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.0-9/68533626_113584359990909_5090194342123929600_n.png?_nc_cat=107&_nc_oc=AQk6X8bPbZTFf_RbFgKtVdZCAMZ_5T_xyFRohPZaTCB5VQNRUMaNQ6jdN_AbxPFKdlU&_nc_ht=scontent.fsgn6-1.fna&oh=f364fafae0f58f233569b94e8eb5af56&oe=5DE26C3B"
+  - text: "Nhà cung ứng dịch vụ 3"
+    image: "https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.0-9/67873261_113584906657521_8251778360653381632_n.png?_nc_cat=101&_nc_oc=AQlGmDoR3iR891FiI9GQpoysZXhD2Bbd-bQHHTrA_FShiyI67uRj_JETcj9_TfvRyfs&_nc_ht=scontent.fsgn6-1.fna&oh=45f3f84fce6f38cc3376742c843038ae&oe=5DCC774A"
+  - text: "Nhà cung ứng dịch vụ 4"
+    image: "https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.0-9/68567807_113585059990839_7408982185199271936_n.png?_nc_cat=104&_nc_oc=AQn9_LjhqmEB7OyoeN9dONJUysOqTak3JZZviA3MD_E7DC6xxO7Io_cO-y3vBS4T7c4&_nc_ht=scontent.fsgn6-1.fna&oh=ef08648458e6248eced68500f81ba772&oe=5DE1A3B4"
+  - text: "Nhà cung ứng dịch vụ 5"
+    image: "https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.0-9/69037900_113585186657493_7970960724392411136_n.png?_nc_cat=106&_nc_oc=AQnodV_n1aYIA5qxxZG02307Rw9LpzSjWdjfrGcF5W3vhXLs8fTrTiYJSM3Z93nIVRw&_nc_ht=scontent.fsgn6-1.fna&oh=dadfb46fff26f35629d0400a7fe3607b&oe=5DE4CA26"
+  - text: "Nhà cung ứng dịch vụ 6"
+    image: "https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.0-9/68432872_113585493324129_4092133569911062528_n.png?_nc_cat=107&_nc_oc=AQm4BGkChvmsTLlIzEcj-_e3Cqm1somOzNAO5LJzNu-oIforYBElVDJaSBu-L2051qs&_nc_ht=scontent.fsgn6-1.fna&oh=6dd09cfc2f73f7e7d13f4abfe35f5d06&oe=5DDDF0AC"
+  - text: "Nhà cung ứng dịch vụ 7"
+    image: "https://scontent.fsgn6-2.fna.fbcdn.net/v/t1.0-9/67663357_113585693324109_3846871459632775168_n.png?_nc_cat=100&_nc_oc=AQnd9_TFlWm8AL06KiWpnDZk6fmJhZKGQqmCJnxBntdppmu_dP9KCLH80bEPSUw3Qzc&_nc_ht=scontent.fsgn6-2.fna&oh=5ef06f28f5a9a53ba184eb413277bbe6&oe=5DD063F5"
+  - text: "Nhà cung ứng dịch vụ 8"
+    image: "https://scontent.fsgn6-2.fna.fbcdn.net/v/t1.0-9/67806251_113585856657426_2627009758686609408_n.png?_nc_cat=100&_nc_oc=AQnLpYOJZu3lcLX3qtu7iehIoieWLdc8if-W25-5qn0-6V8cNIpkgSaxuomSq_WzRxE&_nc_ht=scontent.fsgn6-2.fna&oh=7279f6e94e217567c8a61eeec084ab90&oe=5DDC291E"
+  - text: "Nhà cung ứng dịch vụ 9"
+    image: "https://scontent.fsgn6-2.fna.fbcdn.net/v/t1.0-9/67779603_113586086657403_3756073634792210432_n.png?_nc_cat=111&_nc_oc=AQkcn3Vh9-FcOlAh0miP-XUYdOKFRkhKGay6jBrjDDINnByFssLdHjlpPOpWc04Ql4s&_nc_ht=scontent.fsgn6-2.fna&oh=64cf074fe7a58600d0a3214c32e5fc1c&oe=5DCE9617"
+  
+  utter_fastmobipayCachNhapThongTin:
+  - text: "Nhập tên nhà cung cấp dịch vụ: FPT, VNP, CDT, VTC, …','Nhập số hóa đơn tương ứng: Số hợp đồng ADSL (nhà cung cấp FPT), số điện thoại nạp tiền (nhà cung cấp VNP), …"
+
+  utter_fastmobipayThaySim:
+  - text: "Để sử dụng dịch vụ F@st MobiPay – OTAC, bạn phải đăng ký một số điện thoại và 1 số tài khoản (tài khoản này được gọi là tài khoản nguồn). Và như vậy, bạn chỉ có thể sử dụng dịch vụ trên số điện thoại này, tức là bạn không thể thực hiện dịch vụ trên sim khác."
+
+  utter_homebankingLaGi:
+  - text: "Techcombank Homebanking là dịch vụ cho phép khách hàng nhận các thông tin liên quan đến giao dịch tài khoản của khách hàng một cách tự động thông qua e-mail hoặc thông qua điện thoại di động hoặc khách hàng có thể gửi tin nhắn đến Tổng đài để truy vấn số dư tài khoản, tra cứu tỷ giá, lãi suất, thông tin về Ngân hàng và dịch vụ Ngân hàng."
+
+  utter_homebankingHinhThucGiaoDich:
+  - text: "Techcombank Homebanking bao gồm 3 dịch vụ: Techcombank Mail Access (khách hàng sẽ nhận được thông tin giao dịch tài khoản 1 cách tự động qua e-mail đã đăng ký), Techcombank Mobile Access (thông tin về giao dịch tài khoản sẽ được gửi tự động về số điện thoại đăng ký của khách hàng hoặc khách hàng có thể gửi tin nhắn đến Tổng đài để nhận được thông tin về tài khoản, tra cứu tỷ giá, lãi suất, thông tin về Ngân hàng và dịch vụ Ngân hàng), Techcombank Voice Access (gọi tắt là Vocaly) (khách hàng có nhu cầu cần đăng ký sử dụng dịch vụ và khi đăng nhập hệ thống cần nhập đúng mã khách hàng, PhonePassword, làm theo hướng dẫn để tra cứu thông tin tự động trên hệ thống tổng đài điện thoại 1900 1590 và 1800 588 822 hoặc số điện thoại khác theo quy định của Ngân hàng)."
+
+  utter_homebankingCachDangKy:
+  - text: "Để đăng ký sử dụng dịch vụ Techcombank Homebanking, khách hàng chỉ cần đến bất kỳ điểm giao dịch nào của Techcombank điền vào đơn đăng ký sử dụng dịch vụ Homebanking và gửi kèm bản photo chứng minh thư; hoặc khách hàng có thể đăng ký online ngay trên trang web của Techcombank."
+
+  utter_homebankingAiNhanDuocThongTinGiaoDich:
+  - text: "Chính xác, chỉ có số điện thoại hoặc e-mail mà bạn đăng ký mới nhận được thông tin về giao dịch tài khoản của bạn mỗi khi bạn thực hiện giao dịch trên ATM hoặc trên Internet Banking hoặc giao dịch tại quầy."
+
+  utter_homebankingMaySDTVaChiPhi:
+  - text: "Bạn có thể đăng ký dịch vụ với tối đa 2 số điện thoại. Bạn sẽ được miễn tất cả các loại phí đối với số điện thoại thứ nhất, nhưng với số điện thoại thứ 2, bạn sẽ phải trả phí thường niên 80,000 VNĐ/năm."
+
+  utter_homebankingThongTinVoicAccess:
+  - text: "Khi đăng ký dịch vụ, khách hàng sẽ nhận được một tin nhắn thông báo userID; password và phone-password. Khách hàng phải lưu tin nhắn này để sử dụng dịch vụ Techcombank Voice Access."
+
+  utter_homebankingMatTaiKhoan:
+  - text: "Bạn có thể ra bất kỳ chi nhánh/phòng giao dịch nào của Techcombank để xin cấp lại thông tin truy cập. Việc xin cấp lại thông tin truy cập này là hoàn toàn miễn phí."
+
+  utter_homebankingLoiKhongNhanDuocTinNhan:
+  - text: "Dịch vụ Techcombank Mobile Access cho phép khách hàng đăng ký 1 số điện thoại với 1 số tài khoản để nhận tin nhắn về giao dịch tài khoản. Sau khi huỷ tài khoản này và mở 1 tài khoản khác, khách hàng phải thông báo lại với chuyên viên Homebanking để được đăng ký lại tài khoản. Khi đó, khách hàng sẽ tiếp tục nhận được tin nhắn về giao dịch tài khoản."
+
+  utter_homebankingLoiKhongNhanDuocGiaoDich:
+  - text: "Để nhận được thông tin về tài khoản mới mở này, bạn nên đến bất kỳ chi nhánh/phòng giao dịch nào của Techcombank để đăng ký thêm tài khoản sử dụng dịch vụ Homebanking."
+
+  utter_homebankingHuyDichVu:
+  - text: "Có. Khách hàng chỉ cần gọi điện thoại đến trung tâm dịch vụ: 1800 588 822 (hoặc 04.9427444) để thông báo tạm dừng dịch vụ. Hãy thông báo lại cho trung tâm dịch vụ khi khách hàng muốn tiếp tục sử dụng dịch vụ."
+
+  utter_homebankingDoanhNghiep:
+  - text: "Có. Bạn hoàn toàn có thể đăng ký dịch vụ Homebanking cho khách hàng doanh nghiệp nếu doanh nghiệp đó có tài khoản mở tại Techcombank."

@@ -1,0 +1,31 @@
+using System.Collections.Generic;
+using NUnit.Framework;
+
+[TestFixture]
+public class HikerTest
+{
+    
+    [Test]
+    public void test1()
+    {
+        // a simple example to start you off
+        Assert.AreEqual(new List<int>(){2}, Hiker.Prime(2));
+        Assert.AreEqual(new List<int>(){3}, Hiker.Prime(3));
+        Assert.AreEqual(new List<int>(){2,2}, Hiker.Prime(4));
+        Assert.AreEqual(new List<int>(){2,3}, Hiker.Prime(6));
+        Assert.AreEqual(new List<int>(){3,3}, Hiker.Prime(9));
+    }
+    
+    [Test]
+    public void test2()
+    {
+        // a simple example to start you off
+        Assert.AreEqual(new List<int>(){17}, Hiker.Prime(17));
+        Assert.AreEqual(new List<int>(){3,7,7}, Hiker.Prime(147));
+        Assert.AreEqual(new List<int>(){3,7}, Hiker.Prime(21));
+        Assert.AreEqual(new List<int>(){2,7}, Hiker.Prime(14));
+        Assert.AreEqual(new List<int>(){2,11}, Hiker.Prime(22));
+    }
+    
+    
+}
